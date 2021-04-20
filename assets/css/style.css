@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 120px;
   border: 8px solid #5c4237;
 }
-
+/*Nome de Usuário*/
 #header .profile h1 {
   font-size: 24px;
   margin: 0;
@@ -305,27 +305,29 @@ section {
   bottom: 0;
   left: 0;
 }
-
+/*Texto em baixo do tópico publicar e do título da publicação*/
 .section-title p {
   margin-bottom: 0;
   font-family: Arial;
+  color: #000
 }
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+/*Tópico informações*/
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #000
+  color: #000;
 }
 
-
-
+/*Texto das informações*/
 .about .content ul {
   list-style: none;
   padding: 0;
   font-family: Arial;
+  color: #000;
 }
 
 .about .content ul li {
@@ -337,14 +339,14 @@ section {
 .about .content ul strong {
   margin-right: 10px;
 }
-
+/*Icones da lista de informações*/
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #3a2b24;
+  color: #000;
   line-height: 0;
 }
-
+/*Texto em baixo das informações*/
 .about .content p:last-child {
   margin-bottom: 0;
   font-family: Arial;
@@ -361,44 +363,44 @@ section {
   padding: 30px;
   width: 100%;
 }
-
+/*Símbolos Minhas Publicações*/
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #3a2b24;
   float: left;
   line-height: 0;
 }
-
+/*Número ao lado dos símbolos*/
 .facts .count-box span {
   font-size: 48px;
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #3a2b24;
   margin-left: 60px;
 }
-
+/*Texto em baixo dos números*/
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
+  font-family: Arial;
   font-size: 14px;
-  color: #122f57;
+  color: #000;
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #122f57;
+  color: #f45d22;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", Arial;
   transition: ease-in-out 0.3s;
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #f45d22;
 }
 
 /*--------------------------------------------------------------
@@ -845,7 +847,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #f45d22;
 }
 
 .contact .info .email p {
@@ -1024,7 +1026,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #0e2442;
+  color: #f45d22;
   content: "/";
 }
 
