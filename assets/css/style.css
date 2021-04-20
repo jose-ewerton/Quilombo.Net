@@ -12,16 +12,6 @@ body {
   font-family: "Times New Roman", Arial;
   color: #000;
 }
-/*#BootstrapMade - Footer*/
-a {
-  color: #5c4237;
-  text-decoration: none;
-}
-/*Cor ao passar por cima do BoostrapMade - Footer*/
-a:hover {
-  color: #fff;
-  text-decoration: none;
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Times New Roma";
@@ -214,11 +204,12 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /*Imagem de fundo - Principal*/
 #hero {
-  width: 100%;
-  height: 120vh;
-  left: 100px;
-  background: url("../img/mapaquilombolasrn.jpg") top center;
+  width: 100;
+  height: 100vh;
+  left: 0;
+  background: url("../img/fundo.jpg") top center;
   background-size: cover;
+  
 }
 /*Cor por cima da imagem principal*/
 #hero:before {
@@ -281,11 +272,12 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+/*Cor de fundo alternado 1*/
 section {
   padding: 60px 0;
-  overflow: hidden;
+  background-color: #f5f8fd;
 }
-
+/*Cor de fundo alternado 2*/
 .section-bg {
   background: #f5f8fd;
 }
@@ -293,29 +285,30 @@ section {
 .section-title {
   padding-bottom: 30px;
 }
-
+/*Tópicos*/
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #3a2b24;
 }
-
+/*Linha dos tópicos*/
 .section-title h2::after {
   content: '';
   position: absolute;
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #3a2b24;
   bottom: 0;
   left: 0;
 }
 
 .section-title p {
   margin-bottom: 0;
+  font-family: Arial;
 }
 
 /*--------------------------------------------------------------
@@ -324,12 +317,15 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #000
 }
 
+
+before
 .about .content ul {
   list-style: none;
   padding: 0;
+  font-family: Arial;
 }
 
 .about .content ul li {
@@ -345,12 +341,13 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #3a2b24;
   line-height: 0;
 }
 
 .about .content p:last-child {
   margin-bottom: 0;
+  font-family: Arial;
 }
 
 /*--------------------------------------------------------------
