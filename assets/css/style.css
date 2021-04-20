@@ -204,16 +204,10 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /*Imagem de fundo - Principal*/
 #hero {
-<<<<<<< HEAD
   width: 100;
   height: 100vh;
   left: 0;
   background: url("../img/fundo.jpg") top center;
-=======
-  width: 100%;
-  height: 100vh;
-  background-color: #149ddd;
->>>>>>> 797999250764c0ee331ebb5a70024ed06505dc53
   background-size: cover;
   
 }
@@ -327,7 +321,7 @@ section {
 }
 
 
-before
+
 .about .content ul {
   list-style: none;
   padding: 0;
