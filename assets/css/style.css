@@ -842,12 +842,12 @@ section {
   margin-bottom: 5px;
   color: #050d18;
 }
-
+/*Informações de contato*/
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #f45d22;
+  color: #000;
 }
 
 .contact .info .email p {
